@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 84px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+main,
+aside {
+    display: inline-block;
+}
+
+main {
+    border: 1px solid black;
+    width: 80%;
+    margin-top: 84px;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    margin-bottom: 399px;
+    margin-top: 84px;
+}
+#img-titulo {
+    width: 102px;
+    height: 78px;
+}
+
+#Titulo {
+    display: inline;;
+    margin: 22px;
+    color: white;
+    font-size: 84px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+#menu {
+    color: black;
+    padding: 0px;
+    margin: 20px;
+    list-style: none;
+}
+#menu li {
+    display: inline;
+}
+#menu li a {
+    padding: 6px 41px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-right: 3px solid white;
+    margin-top: 7px;
+}
+
+#menu li a:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+#menu li:last-child a {
+    border-right: none;
+}
+
+.Times {
+    text-align: center;
+}
+.times-img{
+    width: 225px;
+    height: 200px;
+}
+
+main div {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: inline;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+#Times {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    margin-top: 24px;
+}
+
+#tabform {
+    margin-top: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 473px;
+}
+.table-hover:hover {
+    background-color: rgba(204, 204, 204, 0.836);
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Classificação {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+form {
+    font-size: 16px;
+    background: #CCC;
+    max-width: 500px;
+    padding: 16px;
+}
+
+.Tituloform {
+    color: #333
+}
+
+input,
+textarea {
+    width: 474px;
+    padding: 10px;
+}
+
+.enviar input {
+    background-color: #069;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.enviar input:hover {
+    background: #078;
+}
+
+textarea {
+    width: 474px;
+    height: 120px;
+    line-height: 20px;
+}
+.rodape{
+    -webkit-margin-top-collapse: separate;
+    background-color: black;
+    color: white;
+}
+.rodape-1{
+    display: flex;
+}
+#contato{
+    width: 50%;
+    margin-top: 192px;
+    align-items: center;
+    text-align: center;
+    margin-right: -500px;
+}
+
+.formulario {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 600px;
+    float: right;
+    margin-right: -900px;
+}
+#titulo-contato{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    margin-top: 24px;
+}
+.timeline{
+    max-height: 160vh;
+    overflow-y: scroll;
+}
+.telefone-gmail{
+    color: white;
+    text-decoration: none;  
+}
