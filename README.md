@@ -1,3 +1,2 @@
-# P-gina-inicial
-Página inicial do site
-Soccer2020.surge.sh
+# soccer2020
+click [aqui](http://soccer2020.surge.sh/)  🤓
